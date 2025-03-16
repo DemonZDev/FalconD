@@ -1,37 +1,27 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/HydraLabs-beta/sedar/main/HydraDaemon2.png" alt="HydraBanner">
-</p>
-
-<h1 align="center">HydraDaemon</h1>
-## Overview
-Hydra Daemon is the daemon for the Hydra Panel.
+## FalconD
+FalconD is the daemon for the FalconCP. It dont need to run using docker.
 
 ## Installation
 1. Clone the repository:
-`git clone https://github.com/hydren-dev/HydraDAEMON`
+`git clone https://github.com/DemonZDev/FalconD.git`
 
-2. Install dependencies:
+2. Go to the repository:
+`cd FalconD`
+
+3. Install dependencies:
 `npm install`
 
-3. Configure HydraDAEMON:
+4. Configure HydraDAEMON:
 - Get your Panel's access key from the Hydra panel's config.json file and set it as 'remoteKey'. Do the same for the other way, set your HydraDaemon access key and configure it on the Panel.
 
-4. Start the Daemon:
-`node . # or use pm2 to keep it online`
-
-## Configuration
-Configuration settings can be adjusted in the `config.json` file. This includes the authentication key for API access.
+5. Start the Daemon:
+`node .`
 
 ## Usage
-The daemon runs as a background service, interfacing with the Hydra Panel for operational commands and status updates. It is not typically interacted with directly by end-users.
+The daemon runs as a background service, interfacing with the FalconCP for operational commands and status updates. It is not typically interacted with directly by end-users.
 
 ## Contributing
-Contributions to enhance the functionality or performance of the Hydra Daemon are encouraged. Please submit pull requests for any enhancements.
+Contributions to enhance the functionality or performance of the FalconD are encouraged. Please submit pull requests for any enhancements.
 
-## License
-(c) 2024 MJ and contributors. This software is licensed under the MIT License.
-
-
-## Credits
-SRYDEN
-Skyport
+## Credit
+- HydrenLabs
